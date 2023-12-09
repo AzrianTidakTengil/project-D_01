@@ -1,7 +1,22 @@
-body{
-    background-color: aqua;    
+:root{
+    --gradiasi: linear-gradient(rgba(0,0,0, 90%), rgba(0, 0, 0, 52%));    
 }
 
-h1{
-    font-size: 4.5rem;
+html, body{
+    margin: 0;
+    height: 100%;
+}
+
+.content{
+    height: 75vh;
+    background-image: var(--gradiasi);
+    display: flex;
+    align-items: center;
+    
+}
+
+.title{
+    margin-left: 40px;
+    color: #c9c9c9;
+    font-size: 5.4rem;
 }
