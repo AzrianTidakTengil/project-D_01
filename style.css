@@ -4,7 +4,7 @@ html, body{
 }
 
 .page-1{
-    background-image: url("/asset/v1013-p-0009a.jpg");
+    background-image: url("asset/v1013-p-0009a.jpg");
     height: 95%;
     width: 100%;
     background-size: cover;
@@ -38,7 +38,7 @@ html, body{
 }
 
 .img-01{
-    background-image: url("/asset/test-png.png");
+    background-image: url("asset/test-png.png");
     background-size: cover;
     width: 22vw;
     height: 54vh;
