@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@500&family=Poppins:wght@500&display=swap');
+
+:root {
+    --PlaypenSans: 'Playpen Sans';
+    --Poppins: 'Poppins';
+}
 html, body{
     margin: 0;
     height: 100%;
@@ -49,7 +55,7 @@ html, body{
 }
 
 .img-02{
-    background-image: url("/asset/test-png.png");
+    background-image: url("asset/test-png.png");
     background-size: cover;
     width: 22vw;
     height: 54vh;
@@ -60,7 +66,7 @@ html, body{
 }
 
 .img-03{
-    background-image: url("/asset/test-png.png");
+    background-image: url("asset/test-png.png");
     background-size: cover;
     width: 22vw;
     height: 54vh;
@@ -80,6 +86,7 @@ html, body{
 }
 
 .title{
+    font-family: 'Playpen Sans', cursive;
     font-size: 10rem;
     margin-bottom: 0;
 }
@@ -91,8 +98,7 @@ html, body{
 }
 
 .paragraf{
-    position: absolute;
-    top: 57%;
+    
     text-indent: 30px;
     width: 542px;
 }
