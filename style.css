@@ -104,3 +104,15 @@ html, body{
     text-indent: 30px;
     width: 542px;
 }
+
+@media (max-width:1366px) {
+    
+}
+
+@media (max-width:768px) {
+    
+}
+
+@media (max-width:450px) {
+        
+}
