@@ -45,18 +45,20 @@ html, body{
 }
 
 .img-01{
-    background-image: url("asset/test-png.png");
+    background-image: url("asset/des01.jpg");
     background-size: cover;
+    background-position: center;
     width: 22vw;
     height: 54vh;
-    border: 1.5px dashed #112;
+    border: 2.1px dashed #112;
     box-shadow: 25px 22px rgba(0, 0, 0, 7%);
     margin-top: -24px;
     margin-left: -65px;
 }
 
 .img-02{
-    background-image: url("asset/test-png.png");
+    background-image: url("asset/des02.jpg");
+    background-position: center;
     background-size: cover;
     width: 22vw;
     height: 54vh;
@@ -67,8 +69,9 @@ html, body{
 }
 
 .img-03{
-    background-image: url("asset/test-png.png");
+    background-image: url("asset/des03.jpg");
     background-size: cover;
+    background-position: center;
     width: 22vw;
     height: 54vh;
     border: 1.5px solid #112;
