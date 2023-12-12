@@ -11,7 +11,7 @@ html, body{
 
 .page-1{
     background-image: url("asset/v1013-p-0009a.jpg");
-    height: 95%;
+    height: 100vh;
     width: 100%;
     background-size: cover;
     margin: 0;
@@ -121,14 +121,14 @@ html, body{
 
 @media (max-width:450px) {
         .page-1{
-            height: 105%;
+            height: 140vh;
         }
         .c-text{
             top: 0%;
         }
         .title{
             font-size: 5rem;
-            margin-bottom: 460px;
+            margin-bottom: 60vh;
         }
         .subtext{
             font-size: 1.92rem;
@@ -137,12 +137,12 @@ html, body{
             width: 85vw;
         }
         .container-img-pg1{
-            top: 32%;
-            left: 33%;
+            top: 38vh;
+            left: 36vw;
         }
         .img-01, .img-02, .img-03{
-            width: 216px;
-            height: 311px;
+            width: 48vw;
+            height: 37vh;
         }
         .img-01, .img-02{
             margin-left: -45px;
