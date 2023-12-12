@@ -18,14 +18,6 @@ html, body{
 
 }
 
-.bottom-page-1{
-    width: 100%;
-    height: 4%;
-    position: absolute;
-    top: 91.035%;
-    background-image: linear-gradient(rgba(255,255,255, 4%),rgba(0,0,0, 45%), rgba(0,0,0, 89%));
-}
-
 .page-2{
     background-color: rgba(0,0,0, 92%);
     height: 45%;
@@ -40,7 +32,7 @@ html, body{
 .container-img-pg1{
     position: absolute;
     top: 28%;
-    right: 10.4%;
+    left: 66%;
     rotate: 8deg;
 }
 
@@ -128,23 +120,29 @@ html, body{
 }
 
 @media (max-width:450px) {
+        .page-1{
+            height: 105%;
+        }
         .c-text{
             top: 0%;
         }
         .title{
             font-size: 5rem;
-            margin-bottom: 410px;
+            margin-bottom: 460px;
         }
-        .container-img-pg1{
-            top: 29%;
-            right: 13.4%;
+        .subtext{
+            font-size: 1.92rem;
         }
         .paragraf{
-            width: 365px;
+            width: 85vw;
+        }
+        .container-img-pg1{
+            top: 32%;
+            left: 33%;
         }
         .img-01, .img-02, .img-03{
             width: 216px;
-            height: 300px;
+            height: 311px;
         }
         .img-01, .img-02{
             margin-left: -45px;
