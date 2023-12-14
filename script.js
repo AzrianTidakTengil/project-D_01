@@ -1,4 +1,4 @@
-
+/*
 const link = ["asset/des02.jpg", "asset/des03.jpg", "asset/des01.jpg"]
 let counterlik1 = 0;
 let counterlik2 = 1;
@@ -25,20 +25,33 @@ function slides() {
     counterlik3++; 
     setTimeout(slides, 4500);
 }
-
+*/
 //typewriting
-var isipage2 = "Kesepian Yang Dingin";
-var pisah = isipage2.split("");
+var isipage2_1 = "Tunggu Sebentar..";
+var isipage2_2 = "Kesepian Yang Dingin";
+var pisah = isipage2_2.split("");
 var selesai;
-function type(){
-    if(pisah.length > 0){
-        document.getElementById("type").innerHTML += pisah.shift();
-    }
-    else{
-        document.getElementById("ini-2").innerHTML="iya"
+const baganKetik = document.getElementById("type")
 
+function beforetypebutanimation(){
+    baganKetik.innerHTML = isipage2_1;
+    baganKetik.classList.add("transisiTunggu")
+}
+
+function type(){
+    baganKetik.classList.remove("transisiTunggu")
+
+    if(pisah.length > 0){
+        baganKetik.innerHTML += pisah.shift();
+    } else{
+        document.getElementById("fade-2").classList.remove("none")
+        document.getElementById("fade-2").classList.add("subtext-2")
     }
     setTimeout(type, 250);
 }
 
-type()
+beforetypebutanimation()
+
+
+
+

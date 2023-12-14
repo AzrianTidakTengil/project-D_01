@@ -30,7 +30,7 @@ html, body{
     left: 66%;
     rotate: 8deg;
 }
-
+/*
 .img-01{
     background-image: url("asset/des01.jpg");
     background-size: cover;
@@ -63,6 +63,7 @@ html, body{
     height: 510px;
     border: 1.5px solid #112;
 }
+*/
 
 .fade{
     animation-name: fade;
@@ -130,19 +131,18 @@ html, body{
     margin: 0;
 }
 
-.animation-2{
-    animation: ketik 2s steps(40, end) forwards, batas .5s infinite step-end;
-    overflow: hidden;
-    white-space: nowrap;
+.transisiTunggu{
+    animation: tunggu 3s infinite alternate;
 }
 
-@keyframes ketik {
-    1%, 99% {
-        border-right: 3px solid #fff;
+@keyframes tunggu {
+    0%{
+        opacity: 0;
     }
-    100% {
-        border-right: none;
-    }
+}
+
+.animation-2{
+    animation:batas .5s infinite step-end;
 }
 
 @keyframes batas {
@@ -162,16 +162,16 @@ html, body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 2rem;
     color: #fff;
+    animation: transisi2 3s;
 }
 
-.fade-2{
-    animation-name: trasnsisi2;
-    animation-duration: 5s;
+.none{
+    display: none;
 }
 
 @keyframes transisi2 {
-    from {color: #112;}
-    to {color: #fff;}
+    from {opacity: 0;}
+    to {opacity: 100%;}
 }
 
 @media (max-width:1366px) {
