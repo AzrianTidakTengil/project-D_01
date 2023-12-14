@@ -18,11 +18,6 @@ html, body{
 
 }
 
-.page-2{
-    background-color: rgba(0,0,0, 92%);
-    height: 45%;
-    width: 100%;
-}
 
 .c-text{
     position: absolute;
@@ -106,9 +101,36 @@ html, body{
 }
 
 .paragraf{
-
     text-indent: 30px;
     width: 542px;
+}
+
+/*Set ke 2*/
+
+.page-2{
+    background-color: rgba(0,0,0, 92%);
+    height: 45%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.title-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: var(--PlaypenSans);
+    font-size: 4.5rem;
+    color: #fff;
+}
+
+.subtext-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    color: #fff;
 }
 
 @media (max-width:1366px) {
