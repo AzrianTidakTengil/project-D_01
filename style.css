@@ -110,9 +110,15 @@ html, body{
 .page-2{
     background-color: rgba(0,0,0, 92%);
     height: 45%;
-    width: 100%;
     display: flex;
     align-items: center;
+}
+
+.c-text-2{
+    width: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-rows: 100px 100px;
 }
 
 .title-2{
@@ -122,9 +128,11 @@ html, body{
     font-family: var(--PlaypenSans);
     font-size: 4.5rem;
     color: #fff;
+    margin: 0;
 }
 
 .subtext-2{
+    margin: 0;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -136,7 +144,7 @@ html, body{
 .fade-2{
     animation-name: trasnsisi2;
     animation-delay: 4.53s;
-    animation-duration: 2.1s;
+    animation-duration: 5s;
 }
 
 @keyframes transisi2 {
