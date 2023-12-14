@@ -133,6 +133,17 @@ html, body{
     color: #fff;
 }
 
+.fade-2{
+    animation-name: trasnsisi2;
+    animation-delay: 4.53s;
+    animation-duration: 2.1s;
+}
+
+@keyframes transisi2 {
+    from {color: #112;}
+    to {color: #fff;}
+}
+
 @media (max-width:1366px) {
     
 }
