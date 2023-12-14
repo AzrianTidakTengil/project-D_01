@@ -122,13 +122,40 @@ html, body{
 }
 
 .title-2{
-    width: 100%;
     display: flex;
     justify-content: center;
     font-family: var(--PlaypenSans);
     font-size: 4.5rem;
     color: #fff;
     margin: 0;
+}
+
+.animation-2{
+    width: 38vw;
+    animation: ketik 2s steps(40, end) forwards, batas .5s infinite step-end alternate;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+@keyframes ketik {
+    0% {
+        width: 0;
+    }
+    1%, 99% {
+        border-right: 3px solid #fff;
+    }
+    100% {
+        border-right: none;
+    }
+}
+
+@keyframes batas {
+    0% {
+        border-right: 3px solid #fff;
+    }
+    50% {
+        border-right: 3px solid transparent;
+    }
 }
 
 .subtext-2{
@@ -187,5 +214,15 @@ html, body{
         }
         .img-01, .img-02{
             margin-left: -45px;
+        }
+
+        /*page 2*/
+
+        .title-2{
+            font-size: 1.9rem;
+        }
+
+        .animation-2{
+            width: 72vw;
         }
 }
