@@ -25,3 +25,20 @@ function slides() {
     counterlik3++; 
     setTimeout(slides, 4500);
 }
+
+//typewriting
+var isipage2 = "Kesepian Yang Dingin";
+var pisah = isipage2.split("");
+var selesai;
+function type(){
+    if(pisah.length > 0){
+        document.getElementById("type").innerHTML += pisah.shift();
+    }
+    else{
+        document.getElementById("ini-2").innerHTML="iya"
+
+    }
+    setTimeout(type, 250);
+}
+
+type()

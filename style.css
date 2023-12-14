@@ -131,16 +131,12 @@ html, body{
 }
 
 .animation-2{
-    width: 38vw;
-    animation: ketik 2s steps(40, end) forwards, batas .5s infinite step-end alternate;
+    animation: ketik 2s steps(40, end) forwards, batas .5s infinite step-end;
     overflow: hidden;
     white-space: nowrap;
 }
 
 @keyframes ketik {
-    0% {
-        width: 0;
-    }
     1%, 99% {
         border-right: 3px solid #fff;
     }
@@ -170,7 +166,6 @@ html, body{
 
 .fade-2{
     animation-name: trasnsisi2;
-    animation-delay: 4.53s;
     animation-duration: 5s;
 }
 
@@ -219,10 +214,7 @@ html, body{
         /*page 2*/
 
         .title-2{
-            font-size: 1.9rem;
+            font-size: 1.5rem;
         }
 
-        .animation-2{
-            width: 72vw;
-        }
 }
