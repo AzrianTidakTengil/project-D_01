@@ -47,7 +47,7 @@ function type(){
     } else{
         document.getElementById("fade-2").classList.remove("none")
         document.getElementById("fade-2").classList.add("subtext-2")
-        setTimeout(nextPage02, 4000);
+        //setTimeout(nextPage02, 4000);
     }
     setTimeout(type, 250);
 }
