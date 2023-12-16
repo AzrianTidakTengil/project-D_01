@@ -1,4 +1,3 @@
-/*
 const link = ["asset/des02.jpg", "asset/des03.jpg", "asset/des01.jpg"]
 let counterlik1 = 0;
 let counterlik2 = 1;
@@ -25,22 +24,23 @@ function slides() {
     counterlik3++; 
     setTimeout(slides, 4500);
 }
-*/
+
 //typewriting
 var isipage2_1 = "Tunggu Sebentar..";
 var isipage2_2 = "Kesepian Yang Dingin";
 var pisah = isipage2_2.split("");
 var selesai;
 const baganKetik = document.getElementById("type")
+const bagantunggu = document.getElementById("tunggu")
 
 function beforetypebutanimation(){
-    baganKetik.innerHTML = isipage2_1;
-    baganKetik.classList.add("transisiTunggu")
+    bagantunggu.innerHTML = isipage2_1;
+    bagantunggu.classList.add("transisiTunggu");
+    setTimeout(type,3000)
 }
 
 function type(){
-    baganKetik.classList.remove("transisiTunggu")
-
+    bagantunggu.innerHTML = "";
     if(pisah.length > 0){
         baganKetik.innerHTML += pisah.shift();
     } else{
@@ -51,7 +51,11 @@ function type(){
 }
 
 beforetypebutanimation()
-
+console.log(pisah)
+console.log(pisah.length)
+for(i=0; i<pisah.length; i++){
+    console.log(pisah[i])
+}
 
 
 

@@ -30,7 +30,7 @@ html, body{
     left: 66%;
     rotate: 8deg;
 }
-/*
+
 .img-01{
     background-image: url("asset/des01.jpg");
     background-size: cover;
@@ -63,7 +63,7 @@ html, body{
     height: 510px;
     border: 1.5px solid #112;
 }
-*/
+
 
 .fade{
     animation-name: fade;
