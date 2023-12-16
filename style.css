@@ -106,13 +106,30 @@ html, body{
     width: 542px;
 }
 
-/*Set ke 2*/
+/*Set ke 2
+    
+*/
 
 .page-2{
     background-color: rgba(0,0,0, 92%);
     height: 45%;
     display: flex;
     align-items: center;
+}
+
+.change-page-2{
+    background-image: linear-gradient(rgba(0,0,0, 92%),rgba(0,0,0, 65%)45%, rgba(235, 109, 80, 40%)75%,rgba(235, 109, 80, 80%)100%);
+    animation: p 3s;
+    animation-fill-mode: both;
+}
+
+@keyframes p {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 .c-text-2{
@@ -162,11 +179,21 @@ html, body{
     font-family: 'Times New Roman', Times, serif;
     font-size: 2rem;
     color: #fff;
-    animation: transisi2 3s;
+    animation: transisi2 5s;
 }
 
 .none{
     display: none;
+}
+
+/*
+    page ke 3 (body web)
+*/
+
+.page-3{
+    display: none;
+    height: 100vh;
+    background-image: linear-gradient(rgba(235, 109, 80, 80%)22%, rgba(255, 199, 135)80%);
 }
 
 @keyframes transisi2 {

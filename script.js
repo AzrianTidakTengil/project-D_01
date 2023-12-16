@@ -36,26 +36,27 @@ const bagantunggu = document.getElementById("tunggu")
 function beforetypebutanimation(){
     bagantunggu.innerHTML = isipage2_1;
     bagantunggu.classList.add("transisiTunggu");
-    setTimeout(type,3000)
+    setTimeout(type,6500)
 }
 
 function type(){
     bagantunggu.innerHTML = "";
+    baganKetik.classList.add("animation-2")
     if(pisah.length > 0){
         baganKetik.innerHTML += pisah.shift();
     } else{
         document.getElementById("fade-2").classList.remove("none")
         document.getElementById("fade-2").classList.add("subtext-2")
+        setTimeout(nextPage02, 4000);
     }
     setTimeout(type, 250);
 }
 
 beforetypebutanimation()
-console.log(pisah)
-console.log(pisah.length)
-for(i=0; i<pisah.length; i++){
-    console.log(pisah[i])
+
+//masuk ke page 3
+function nextPage02(){
+    document.getElementById("page2").style.backgroundColor= "rgba(0,0,0, 0%)";
+    document.getElementById("page2").classList.add("change-page-2");
+    document.getElementById("page3").style.display = "block"
 }
-
-
-
