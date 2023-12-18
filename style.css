@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Playpen+Sans:wght@500&family=Poppins:wght@500&family=Poppins:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Playpen+Sans:wght@500&family=Poppins:wght@300;500&display=swap');
 
 :root {
     --PlaypenSans: 'Playpen Sans';
     --Poppins: 'Poppins';
-    --lili:'Lilita One'
+    --lobster: 'Lobster';
 }
+
 html, body{
     margin: 0;
     height: 100%;
@@ -78,7 +79,7 @@ html, body{
 }
 
 .m-right{
-    margin-right: 5vw;
+    margin-right: 2vw;
 }
 
 .m-left-pg1{
@@ -208,33 +209,65 @@ html, body{
 
 .text-3{
     position: absolute;
-    text-align: right;
-    color: #fff;
-    right: 12%;
-
+    right: 5%;
+    display: grid;
+    justify-items: end;
+    grid-template-rows: 85px auto;
+    width: 900px;
 }
 
 .title-3{
-    font-family: var(--lili);
-    font-size: 1rem;
-    width: 60%;
+    font-family: var(--lobster), sans-serif;
+    font-size: 4.5rem;
+    color: #eee;
+    text-align: right;
+    margin-top: 15vh;
 }
 
-.name{
-    font-family: var(--Poppins), sans-serif;
-    font-weight: 200;
-    font-size: 7.5rem;
-    
+.wadah-3{
+    position: absolute;
+    left: 16%;
 }
 
-.img-spesial{
+.img-spesial, .img-down-3{
+    position: absolute;
     background-image: url("asset/dessss-nobg-3.png");
-    height: 620px;
-    width: 400px;
+    height: 820px;
+    width: 600px;
     background-size: cover;
     background-position: center;
 }
 
+
+.img-down-3{
+    position: relative;
+}
+
+.img-spesial{
+    z-index: 2;
+}
+
+.name{
+    font-family: var(--Poppins), sans-serif;
+    font-weight: 300;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: #fff;
+    position: absolute;
+    left: 99%;
+    top: 80%;
+    width: 340px;
+    padding: 10px 0;
+    border-radius: 0 40px 40px 0;
+    text-align: center; 
+    z-index: 1;
+}
+
+.border-name{
+    border-width: 3px;
+    border-style: solid;
+    border-color: #fff;
+}
 
 
 @media (max-width:1366px) {
