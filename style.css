@@ -176,8 +176,6 @@ html, body{
 .subtext-2{
     margin: 0;
     width: 100%;
-    display: flex;
-    justify-content: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 2rem;
     color: #fff;
