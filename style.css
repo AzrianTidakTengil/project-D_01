@@ -260,7 +260,7 @@ html, body{
     width: 340px;
     padding: 10px 0;
     border-radius: 0 40px 40px 0;
-    text-align: center; 
+    text-align: justify; 
     z-index: 1;
 }
 
