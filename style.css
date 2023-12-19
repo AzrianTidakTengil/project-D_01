@@ -20,7 +20,6 @@ html, body{
 
 }
 
-
 .c-text{
     position: absolute;
     top: 18.5%;         
@@ -266,6 +265,55 @@ html, body{
     border-width: 3px;
     border-style: solid;
     border-color: #fff;
+}
+
+.frame-1{
+    text-align: center;
+    display: grid;
+    place-items: center;
+    background-image: url("asset/72ppi/frame-1.png");
+    background-size: cover;
+    width: calc(211px * 1.8);
+    height: calc(115px * 1.8);
+    transform: rotate(-15deg);
+    position: absolute;
+    top: -15%;
+    left: 74%;
+    font-size: 2.1rem;
+    font-family: var(--Poppins);
+    color: #eee;
+}
+
+.frame-1 .word-1{
+    background-color: #1a1a;
+    padding: 0 10px;
+    position: absolute;
+    top: 28%;
+    left: 30%;
+}
+
+.frame-1 .word-2{
+    background-color: #E52B50;
+    position: absolute;
+    padding: 0 10px;
+    top: 54%;
+    left: 45%;
+}
+
+.frame-1 .subtext-1{
+    color: #112;
+    font-size: 1rem;
+    position: absolute;
+    top:65%;
+    left: 25%;
+}
+
+.frame-1 .subtext-2{
+    position: absolute;
+    top: 30%;
+    left: 29%;
+    transform: rotate(12.5deg);
+    animation: none;
 }
 
 
