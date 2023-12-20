@@ -60,3 +60,10 @@ function nextPage02(){
     document.getElementById("page2").classList.add("change-page-2");
     document.getElementById("page3").style.display = "block"
 }
+
+
+//tutup
+tutup()
+function tutup(){
+    document.getElementById("pg-img-1").style.backgroundColor="#111";
+}
