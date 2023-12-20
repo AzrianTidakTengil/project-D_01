@@ -333,6 +333,24 @@ html, body{
     height: calc(880px / 1.5);
 }
 
+.frame-4{
+    background-image: url("asset/72ppi/frame-4.png");
+}
+
+.frame-5{
+    background-image: url("asset/72ppi/frame-5.png");
+    background-size: cover;
+    width: calc(387px / 2.3);
+    height: calc(726px / 2.3);
+}
+
+.frame-6{
+    background-image: url("asset/72ppi/frame-6.png");
+    background-size: cover;
+    width: calc(983px / 4.2);
+    height: calc(918px / 4.2);
+}
+
 /*
     setting display
 */
@@ -356,7 +374,7 @@ html, body{
 .operator-3-2-1{
     position: absolute;
     top: -28%;
-    left: 10%;
+    left: 3%;
     transform: rotate(-25deg);
     opacity: 0.75;
     z-index: 40;
@@ -386,6 +404,22 @@ html, body{
     opacity: 0.225;
     z-index: 29;
     transform: rotate(90deg);
+}
+
+.operator-3-5-1{
+    position: absolute;
+    top: 61%;
+    left: -8%;
+    transform: rotate(-15deg);
+    z-index: 50;
+}
+
+.operator-3-6-1{
+    position: absolute;
+    top: 74%;
+    left: 75%;
+    transform: rotate(15deg);
+    z-index: 60;
 }
 
 .edit-ukuran-1{
