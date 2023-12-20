@@ -4,6 +4,8 @@
     --PlaypenSans: 'Playpen Sans';
     --Poppins: 'Poppins';
     --lobster: 'Lobster';
+    --contentpage31: 100vh;
+    --contentpage32: 80vh;
 }
 
 html, body{
@@ -197,12 +199,13 @@ html, body{
 
 .page-3{
     display: block;
-    height: 100vh;
+    height: calc(var(--contentpage31)+var(--contentpage32));
     background-image: linear-gradient(rgba(235, 109, 80, 80%)22%, rgba(255, 199, 135)80%);
 }
 
 .content-top{
     padding-top: 8vh;
+    height: var(--contentpage31);
 }
 
 .text-3{
