@@ -514,6 +514,11 @@ html, body{
     z-index: 9999;
 }
 
+.center{
+    display: grid;
+    place-items: center;
+}
+
 .subtext-3{
     font-family: var(--PlaypenSans), sans-serif;
     font-size: 1.5rem;
@@ -588,7 +593,7 @@ html, body{
 
         .name{
             font-size: 0.9rem;
-            width: calc(340px / 8);
+            width: calc(340px / 3);
         }
 
         .frame-1{
@@ -668,7 +673,7 @@ html, body{
 
         .content-top{
             margin-bottom: 0;
-            height: 89vh;
+            height: 75vh;
         }
 
         .title-3-2{
