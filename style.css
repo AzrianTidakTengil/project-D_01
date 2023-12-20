@@ -4,8 +4,6 @@
     --PlaypenSans: 'Playpen Sans';
     --Poppins: 'Poppins';
     --lobster: 'Lobster';
-    --contentpage31: 100vh;
-    --contentpage32: 80vh;
 }
 
 html, body{
@@ -33,7 +31,7 @@ html, body{
     left: 66%;
     rotate: 8deg;
 }
-/*
+
 .img-01{
     background-image: url("asset/des01.jpg");
     background-size: cover;
@@ -66,7 +64,7 @@ html, body{
     height: 510px;
     border: 1.5px solid #112;
 }
-*/
+
 
 .fade{
     animation-name: fade;
@@ -199,13 +197,14 @@ html, body{
 
 .page-3{
     display: block;
-    height: calc(var(--contentpage31)+var(--contentpage32));
+    height: calc(100vh + 80vh);
     background-image: linear-gradient(rgba(235, 109, 80, 80%)22%, rgba(255, 199, 135)80%);
 }
 
 .content-top{
-    padding-top: 8vh;
-    height: var(--contentpage31);
+    padding-top: 20vh;
+    height: 100vh;
+    position: relative;
 }
 
 .text-3{
@@ -223,6 +222,7 @@ html, body{
     color: #eee;
     text-align: right;
     margin-top: 15vh;
+    z-index: 9999;
 }
 
 .wadah-3{
@@ -232,7 +232,7 @@ html, body{
 
 .img-spesial, .img-down-3{
     position: absolute;
-    background-image: url("asset/test-png.png");
+    background-image: url("asset/dessss-nobg-3.png");
     height: 670px;
     width: 490px;
     background-size: cover;
@@ -255,12 +255,12 @@ html, body{
     line-height: 1;
     color: #fff;
     position: absolute;
-    left: 99%;
+    left: 97%;
     top: 68%;
     width: 340px;
-    padding: 10px 0;
+    padding: 10px 4px;
     border-radius: 0 40px 40px 0;
-    text-align: justify; 
+    text-align: center; 
     z-index: 1;
 }
 
@@ -319,6 +319,89 @@ html, body{
     animation: none;
 }
 
+.frame-2{
+    background: url("asset/72ppi/frame-2.png");
+    background-size: cover;
+    width: calc(779px / 2.65);
+    height: calc(778px / 2.65);
+}
+
+.frame-3{
+    background-image: url("asset/72ppi/frame-3.png");
+    background-size: cover;
+    width: calc(867px / 1.5);
+    height: calc(880px / 1.5);
+}
+
+/*
+    setting display
+*/
+
+.frame-1, .frame-2, .frame-3{
+    display: block;
+}
+
+/*
+    Seting posisi asset
+*/
+
+.operator-3-0{
+    z-index: 999;
+}
+
+.operator-3-1-1{
+    z-index: 50;
+}
+
+.operator-3-2-1{
+    position: absolute;
+    top: -28%;
+    left: 10%;
+    transform: rotate(-25deg);
+    opacity: 0.75;
+    z-index: 40;
+}
+
+.operator-3-2-2{
+    position: absolute;
+    top: 7.5%;
+    left: 68%;
+    transform: rotate(20.4deg);
+    opacity: 0.55;
+    z-index: 39;
+}
+
+.operator-3-3-1{
+    position: absolute;
+    top: -25%;
+    left: 30%;
+    opacity: 0.225;
+    z-index: 30;
+}
+
+.operator-3-3-2{
+    position: absolute;
+    top: 65%;
+    left: 68%;
+    opacity: 0.225;
+    z-index: 29;
+    transform: rotate(90deg);
+}
+
+.edit-ukuran-1{
+    width: calc(867px / 3);
+    height: calc(880px / 3);
+}
+
+.content-midle{
+    height: 100vh;
+}
+
+.content-midle .title-3{
+    margin-top: 8vh;
+    font-size: 3rem;
+    text-align: center;
+}
 
 @media (max-width:1366px) {
     
@@ -364,7 +447,7 @@ html, body{
         }
 
         .subtext-2{
-            font-size: 0.7qrem;
+            font-size: 0.7rem;
             width: 85vw;
         }
 
