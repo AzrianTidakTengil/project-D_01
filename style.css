@@ -588,7 +588,7 @@ html, body{
 
         .name{
             font-size: 0.9rem;
-            width: calc(340px / 2.1);
+            width: calc(340px / 3);
         }
 
         .frame-1{
@@ -666,10 +666,15 @@ html, body{
             height: calc(446px / 8);
         }
 
+        .content-top{
+            margin-bottom: 0;
+        }
+
         .title-3-2{
             font-size: 1.2rem;
         }
         .subtext-3{
             font-size: 0.9rem;
+            width: 65%;
         }
 }
