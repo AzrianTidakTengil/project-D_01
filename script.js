@@ -36,7 +36,7 @@ const bagantunggu = document.getElementById("tunggu")
 function beforetypebutanimation(){
     bagantunggu.innerHTML = isipage2_1;
     bagantunggu.classList.add("transisiTunggu");
-    setTimeout(type,1000)
+    setTimeout(type,10000)
 }
 
 function type(){
