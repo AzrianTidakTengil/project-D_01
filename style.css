@@ -199,7 +199,7 @@ html, body{
 */
 
 .page-3{
-    display: block;
+    display: none;
     height: calc(100vh + 80vh);
     background-image: linear-gradient(rgba(235, 109, 80, 80%)22%, rgba(255, 199, 135)80%);
     overflow: hidden;
