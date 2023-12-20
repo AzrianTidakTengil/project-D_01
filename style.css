@@ -588,7 +588,7 @@ html, body{
 
         .name{
             font-size: 0.9rem;
-            width: calc(340px / 3);
+            width: calc(340px / 8);
         }
 
         .frame-1{
@@ -668,6 +668,7 @@ html, body{
 
         .content-top{
             margin-bottom: 0;
+            height: 89vh;
         }
 
         .title-3-2{
