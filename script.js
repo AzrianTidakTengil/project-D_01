@@ -36,7 +36,7 @@ const bagantunggu = document.getElementById("tunggu")
 function beforetypebutanimation(){
     bagantunggu.innerHTML = isipage2_1;
     bagantunggu.classList.add("transisiTunggu");
-    setTimeout(type,6500)
+    setTimeout(type,1000)
 }
 
 function type(){
@@ -47,7 +47,7 @@ function type(){
     } else{
         document.getElementById("fade-2").classList.remove("none")
         document.getElementById("fade-2").classList.add("subtext-2")
-        //setTimeout(nextPage02, 4000);
+        setTimeout(nextPage02, 4000);
     }
     setTimeout(type, 250);
 }
@@ -59,11 +59,4 @@ function nextPage02(){
     document.getElementById("page2").style.backgroundColor= "rgba(0,0,0, 0%)";
     document.getElementById("page2").classList.add("change-page-2");
     document.getElementById("page3").style.display = "block"
-}
-
-
-//tutup
-tutup()
-function tutup(){
-    document.getElementById("pg-img-1").style.backgroundColor="#111";
 }

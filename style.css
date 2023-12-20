@@ -4,6 +4,9 @@
     --PlaypenSans: 'Playpen Sans';
     --Poppins: 'Poppins';
     --lobster: 'Lobster';
+    /*frame-4*/
+    --width4: 1745px;
+    --height4: 371px;
 }
 
 html, body{
@@ -196,9 +199,10 @@ html, body{
 */
 
 .page-3{
-    display: block;
+    display: none;
     height: calc(100vh + 80vh);
     background-image: linear-gradient(rgba(235, 109, 80, 80%)22%, rgba(255, 199, 135)80%);
+    overflow: hidden;
 }
 
 .content-top{
@@ -335,6 +339,9 @@ html, body{
 
 .frame-4{
     background-image: url("asset/72ppi/frame-4.png");
+    background-size: cover;
+    width: calc(var(--width4));
+    height: calc(var(--height4));
 }
 
 .frame-5{
@@ -351,11 +358,39 @@ html, body{
     height: calc(918px / 4.2);
 }
 
+.frame-7{
+    background-image: url("asset/72ppi/frame-7.png");
+    background-size: cover;
+    width: calc(424px / 4);
+    height: calc(442px / 4);
+}
+
+.frame-8{
+    background-image: url("asset/72ppi/frame-8.png");
+    background-size: cover;
+    width: calc(531px / 4);
+    height: calc(415px / 4);
+}
+
+.frame-9{
+    background-image: url("asset/72ppi/frame-9.png");
+    background-size: cover;
+    width: calc(508px / 4);
+    height: calc(397px / 4);
+}
+
+.frame-10{
+    background-image: url("asset/72ppi/frame-10.png");
+    background-size: cover;
+    width: calc(446px / 4);
+    height: calc(446px / 4);
+}
+
 /*
     setting display
 */
 
-.frame-1, .frame-2, .frame-3{
+.frame-1, .frame-2, .frame-3, .frame-4, .frame-5, .frame-6, .frame-7, .frame-8, .frame-9, .frame-10{
     display: block;
 }
 
@@ -406,10 +441,19 @@ html, body{
     transform: rotate(90deg);
 }
 
+/*
+    change size * opsional
+*/
+
+.edit-ukuran-1{
+    width: calc(867px / 3);
+    height: calc(880px / 3);
+}
+
 .operator-3-5-1{
     position: absolute;
     top: 61%;
-    left: -8%;
+    left: -6.5%;
     transform: rotate(-15deg);
     z-index: 50;
 }
@@ -422,13 +466,57 @@ html, body{
     z-index: 60;
 }
 
-.edit-ukuran-1{
-    width: calc(867px / 3);
-    height: calc(880px / 3);
+.operator-3-7-1{
+    position: absolute;
+    z-index: 70;
+    top: 94%;
+    left: 22%;
+}
+
+.operator-3-8-1{
+    position: absolute;
+    z-index: 80;
+    top: 88%;
+    left: 31%;
+}
+
+.operator-3-9-1{
+    position: absolute;
+    z-index: 90;
+    top: 88%;
+    left: 46%;
+}
+
+.operator-3-10-1{
+    position: absolute;
+    z-index: 100;
+    top: 92%;
+    left: 57%;
+}
+
+.operator-TM-1{
+    position: absolute;
+    width: calc(var(--width4)/2.5);
+    height: calc(var(--height4)/2.5);
+}
+
+.operator-TM-2{
+    position: absolute;
+    width: calc(var(--width4)/2.5);
+    height: calc(var(--height4)/2.5);
+    top: 40%;
+    left: 41%;
+    transform: rotate(20deg);
 }
 
 .content-midle{
     height: 100vh;
+    position: relative;
+}
+
+.canvas{
+    position: relative;
+    overflow: hidden;
 }
 
 .content-midle .title-3{
@@ -485,4 +573,99 @@ html, body{
             width: 85vw;
         }
 
+        /*page 3*/
+
+        .text-3{
+            width: 310px;
+        }
+
+        .title-3{
+            font-size: 1.4rem;
+            margin-top: calc(15vh * 3.5);
+        }
+
+        .img-spesial, .img-down-3{
+            height: calc(670px / 2.5);
+            width: calc(490px / 2.5);
+        }
+
+        .name{
+            font-size: 0.9rem;
+            width: calc(340px / 1.9);
+        }
+
+        .frame-1{
+            width: calc(211px);
+            height: calc(115px );
+            font-size: 0.9rem;
+            top: -20%;
+        }
+
+        .frame-1 .subtext-1{
+            font-size: 0.5rem;
+        }
+
+        .frame-1 .subtext-2{
+            position: absolute;
+            top: 32%;
+            left: 0%;
+            transform: rotate(12.5deg);
+            animation: none;
+        }
+
+        .operator-3-2-1{
+            top: -54%;
+            left: 3%;
+        }
+
+        .operator-3-2-2{
+            top: 10%;
+            left: 68%;
+            transform: rotate(54deg);
+            opacity: 0.4;
+        }
+
+        .frame-5{
+            width: calc(387px / 8);
+            height: calc(726px / 8);
+        }
+
+        .operator-3-5-1{
+            top: 70%;
+        }
+
+        .frame-6{
+            width: calc(983px / 12);
+            height: calc(918px / 12);
+        }
+
+        .operator-3-6-1{
+            top: 83%;
+            left: 81%;
+        }
+
+        .frame-7{
+            width: calc(424px / 8);
+            height: calc(442px / 8);
+        }
+
+        .operator-3-7-1{
+            top: 87%;
+            left: 14%;
+        }
+
+        .frame-8{
+            width: calc(531px / 8);
+            height: calc(415px / 8);
+        }
+
+        .frame-9{
+            width: calc(508px / 8);
+            height: calc(397px / 8);
+        }
+
+        .frame-10{
+            width: calc(446px / 8);
+            height: calc(446px / 8);
+        }
 }
